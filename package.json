@@ -1,0 +1,15 @@
+{
+  "name": "node-project",
+  "version": "1.0.0",
+  "description": "This is just a basic node project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Aman",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.3",
+    "mongoose": "^6.2.8"
+  }
+}
