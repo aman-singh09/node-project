@@ -6,7 +6,7 @@ const placeRouter= require('./routes/place.route')
 const indexRouter= require('./routes/index.route')
 const bodyParser =require('body-parser')
 
-const URL= 'mongodb+srv://<username>:<password>@cluster0.xlsxx.mongodb.net/<mongodb-project-name>?retryWrites=true&w=majority'
+const URL= 'your mongoDb Connection ID'
 mongoose.connect(URL).then(() =>{
     console.log('Connection Successful!');
 },(err) =>{
